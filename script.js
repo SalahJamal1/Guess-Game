@@ -16,7 +16,6 @@ const displayMessage = msg => {
 
 check.addEventListener('click', e => {
   e.preventDefault();
-  console.log(secertNumber);
   const guessValue = +number.value;
   if (!guessValue) {
     displayMessage('⛔️ No number!');
