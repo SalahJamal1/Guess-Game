@@ -39,6 +39,7 @@ check.addEventListener('click', e => {
     displayMessage('🎉 Correct Number!');
     document.body.style.backgroundColor = '#60b347';
     guess.style.width = '30rem';
+      guess.textContent =guessValue ;
     number.value = '';
   }
 });
